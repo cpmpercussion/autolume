@@ -6,10 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
-#Don't push models
+data/
 models/
-
-#Don't push training runs
 training-runs/
 
 # Distribution / packaging
