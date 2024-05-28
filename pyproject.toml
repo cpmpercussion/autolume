@@ -4,9 +4,32 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "~3.10"
+clip = { git = "https://github.com/openai/CLIP.git", rev = "a9b1bf5920416aaeaec965c25dd9e8f98c864f16" }
+click = "^8.1.7"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+torchaudio = "^2.3.0"
+ffmpeg-python = "^0.2.0"
+opencv-python = "^4.9.0.80"
+imgui = "1.4.1"
+glfw = "^2.7.0"
+pyopengl = "^3.1.7"
+requests = "^2.32.2"
+matplotlib = "^3.9.0"
+scikit-learn = "^1.5.0"
+scikit-image = "^0.23.2"
+tqdm = "^4.66.4"
+fbpca = "^1.0"
+python-osc = "^1.8.3"
+seaborn = "^0.13.2"
+kmeans-pytorch = "^0.3"
+psutil = "^5.9.8"
+kornia = "^0.7.2"
+pyaudio = "^0.2.14"
 
 
 [build-system]
